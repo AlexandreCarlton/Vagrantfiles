@@ -1,3 +1,15 @@
+# Vagrantfiles
+
+A collection of Vagrantfiles I use to experiment with new Linux distributions.
+
+## Setting up
+
+```bash
+$ git clone https://github.com/AlexandreCarlton/Vagrantfiles.git
+$ cp -r Vagrantfiles/.vagrant.d ~/.vagrant.d
+$ vagrant plugin install vagrant-cachier vagrant-vbguest
+```
+
 ## Vagrant plugins
 
 Some plugins that I deem to be applicable in any Vagrant use-case:
